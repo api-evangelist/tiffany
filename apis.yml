@@ -1,7 +1,12 @@
 aid: tiffany
-url: https://raw.githubusercontent.com/api-evangelist/tiffany/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/tiffany/refs/heads/main/apis.yml
 modified: '2026-03-24'
 apis: []
 common:
   - type: Website
     url: https://www.tiffany.com
+description: >-
+  Tiffany & Co. is a global luxury jeweler and specialty retailer that designs, manufactures,
+  and sells jewelry, watches, fragrances, and other accessories under the Tiffany
+  brand.
