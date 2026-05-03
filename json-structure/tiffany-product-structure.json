@@ -1,0 +1,98 @@
+{
+  "name": "Tiffany Product",
+  "description": "Structure documentation for Tiffany & Co. product data model used in e-commerce and corporate gifting",
+  "fields": [
+    {
+      "name": "sku",
+      "type": "string",
+      "required": true,
+      "description": "Unique product SKU (Stock Keeping Unit)"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "required": true,
+      "description": "Full product display name including collection and style"
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "required": false,
+      "description": "Detailed product description with materials and design notes"
+    },
+    {
+      "name": "category",
+      "type": "enum",
+      "required": true,
+      "values": ["Jewelry", "Watches", "Accessories", "Home & Accessories", "Gifts"],
+      "description": "Primary product category"
+    },
+    {
+      "name": "subcategory",
+      "type": "string",
+      "required": false,
+      "description": "Product subcategory (Rings, Necklaces, Bracelets, Earrings, etc.)"
+    },
+    {
+      "name": "collection",
+      "type": "string",
+      "required": false,
+      "description": "Tiffany design collection (e.g., Tiffany T, HardWear, Schlumberger)"
+    },
+    {
+      "name": "price.amount",
+      "type": "number",
+      "required": false,
+      "description": "Retail price in the specified currency"
+    },
+    {
+      "name": "price.currency",
+      "type": "string",
+      "required": false,
+      "description": "ISO 4217 currency code"
+    },
+    {
+      "name": "materials",
+      "type": "array<string>",
+      "required": false,
+      "description": "Primary materials list (metals, gemstones)"
+    },
+    {
+      "name": "gemstones",
+      "type": "array<Gemstone>",
+      "required": false,
+      "description": "Detailed gemstone specifications (type, carats, color, clarity)"
+    },
+    {
+      "name": "metals",
+      "type": "array<Metal>",
+      "required": false,
+      "description": "Metal details (type, karat, color)"
+    },
+    {
+      "name": "availability",
+      "type": "enum",
+      "required": false,
+      "values": ["InStock", "OutOfStock", "PreOrder", "DiscontinuedItemNotForSale"],
+      "description": "Current inventory/availability status"
+    },
+    {
+      "name": "giftable",
+      "type": "boolean",
+      "required": false,
+      "description": "Whether available in corporate gifting catalog"
+    },
+    {
+      "name": "engravable",
+      "type": "boolean",
+      "required": false,
+      "description": "Whether the item supports personalized engraving"
+    },
+    {
+      "name": "occasion",
+      "type": "array<string>",
+      "required": false,
+      "description": "Gift occasion categories (Wedding, Anniversary, Corporate Gift, etc.)"
+    }
+  ]
+}

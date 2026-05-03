@@ -1,0 +1,44 @@
+{
+  "@context": "https://raw.githubusercontent.com/api-evangelist/tiffany/main/json-ld/tiffany-context.jsonld",
+  "sku": "GRP11164",
+  "name": "Tiffany T Wire Bracelet",
+  "description": "Tiffany T wire bracelet in 18k rose gold with round brilliant diamonds. Continuous T motif with geometric simplicity, set with 0.05 carats of diamonds. Spring hinge closure.",
+  "category": "Jewelry",
+  "subcategory": "Bracelets",
+  "collection": "Tiffany T",
+  "price": {
+    "amount": 3200,
+    "currency": "USD",
+    "formatted": "$3,200"
+  },
+  "materials": ["18k Rose Gold", "Diamond"],
+  "gemstones": [
+    {
+      "type": "Diamond",
+      "carats": 0.05,
+      "color": "E-F",
+      "clarity": "VS",
+      "cut": "Round Brilliant"
+    }
+  ],
+  "metals": [
+    {
+      "type": "Gold",
+      "karat": "18k",
+      "color": "Rose Gold"
+    }
+  ],
+  "sizes": ["Small", "Medium", "Large"],
+  "images": [
+    {
+      "url": "https://media.tiffany.com/is/image/Tiffany/EcommItemL/tiffany-t-wire-bracelet-GRP11164_1015684_ED.jpg",
+      "altText": "Tiffany T Wire Bracelet in 18k Rose Gold with Diamonds",
+      "type": "main"
+    }
+  ],
+  "url": "https://www.tiffany.com/jewelry/bracelets/tiffany-t-wire-bracelet-GRP11164/",
+  "availability": "InStock",
+  "giftable": true,
+  "engravable": false,
+  "occasion": ["Anniversary", "Birthday", "Valentine's Day", "Corporate Gift"]
+}

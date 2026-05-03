@@ -1,0 +1,47 @@
+{
+  "@context": "https://raw.githubusercontent.com/api-evangelist/tiffany/main/json-ld/tiffany-context.jsonld",
+  "orderId": "CORP-2026-04821",
+  "companyName": "Apex Financial Partners",
+  "contactName": "Sarah Johnson",
+  "contactEmail": "sarah.johnson@apexfinancial.com",
+  "orderDate": "2026-05-03",
+  "deliveryDate": "2026-05-20",
+  "items": [
+    {
+      "sku": "68238399",
+      "name": "Tiffany & Co. Return to Tiffany Oval Tag Necklace",
+      "quantity": 15,
+      "unitPrice": 475,
+      "size": null
+    },
+    {
+      "sku": "36253671",
+      "name": "Tiffany & Co. Crystal Key Pendant",
+      "quantity": 10,
+      "unitPrice": 350,
+      "size": null
+    }
+  ],
+  "engraving": [
+    {
+      "sku": "68238399",
+      "text": "Thank You — Apex Financial 2026",
+      "font": "Tiffany Script"
+    }
+  ],
+  "shipping": {
+    "recipientName": "Sarah Johnson",
+    "company": "Apex Financial Partners",
+    "line1": "200 Park Avenue",
+    "line2": "Suite 4500",
+    "city": "New York",
+    "state": "NY",
+    "postalCode": "10166",
+    "country": "US",
+    "phone": "+1-212-555-0100"
+  },
+  "subtotal": 10625.00,
+  "total": 11475.25,
+  "currency": "USD",
+  "status": "Confirmed"
+}

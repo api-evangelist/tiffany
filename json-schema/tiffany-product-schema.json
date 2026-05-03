@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/tiffany/main/json-schema/tiffany-product-schema.json",
+  "title": "Tiffany Product",
+  "description": "Schema for a Tiffany & Co. jewelry or luxury product, representing the product data model used in their e-commerce and corporate gifting catalog.",
+  "type": "object",
+  "properties": {
+    "sku": {
+      "type": "string",
+      "description": "Unique Stock Keeping Unit (SKU) identifier for the product"
+    },
+    "name": {
+      "type": "string",
+      "description": "Product display name (e.g., 'Tiffany T Wire Bracelet')"
+    },
+    "description": {
+      "type": "string",
+      "description": "Product description and details"
+    },
+    "category": {
+      "type": "string",
+      "description": "Primary product category (e.g., Jewelry, Watches, Accessories)"
+    },
+    "subcategory": {
+      "type": "string",
+      "description": "Product subcategory (e.g., Rings, Necklaces, Bracelets)"
+    },
+    "collection": {
+      "type": "string",
+      "description": "Product collection name (e.g., Tiffany T, Tiffany HardWear, Return to Tiffany)"
+    },
+    "price": {
+      "$ref": "#/$defs/Price",
+      "description": "Retail price information"
+    },
+    "materials": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Primary materials (e.g., 18k Gold, Sterling Silver, Platinum, Diamond)"
+    },
+    "gemstones": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Gemstone"
+      },
+      "description": "Gemstone details if applicable"
+    },
+    "metals": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Metal"
+      },
+      "description": "Metal details"
+    },
+    "sizes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Available sizes for rings, bracelets, or wearable items"
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/ProductImage"
+      },
+      "description": "Product photography"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Product page URL on tiffany.com"
+    },
+    "availability": {
+      "type": "string",
+      "enum": ["InStock", "OutOfStock", "PreOrder", "DiscontinuedItemNotForSale"],
+      "description": "Current availability status"
+    },
+    "giftable": {
+      "type": "boolean",
+      "description": "Whether the product is available for corporate gifting"
+    },
+    "engravable": {
+      "type": "boolean",
+      "description": "Whether the product supports personalized engraving"
+    },
+    "occasion": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Wedding",
+          "Anniversary",
+          "Birthday",
+          "Valentine's Day",
+          "Mother's Day",
+          "Graduation",
+          "Holiday",
+          "Corporate Gift",
+          "Everyday"
+        ]
+      },
+      "description": "Occasions for which this product is recommended"
+    }
+  },
+  "required": ["sku", "name", "category"],
+  "$defs": {
+    "Price": {
+      "type": "object",
+      "properties": {
+        "amount": {"type": "number", "description": "Price amount"},
+        "currency": {"type": "string", "description": "ISO 4217 currency code (e.g., USD)"},
+        "formatted": {"type": "string", "description": "Formatted price string (e.g., '$1,250')"}
+      }
+    },
+    "Gemstone": {
+      "type": "object",
+      "properties": {
+        "type": {"type": "string", "description": "Gemstone type (e.g., Diamond, Sapphire, Emerald)"},
+        "carats": {"type": "number", "description": "Total carat weight"},
+        "color": {"type": "string"},
+        "clarity": {"type": "string"},
+        "cut": {"type": "string"}
+      }
+    },
+    "Metal": {
+      "type": "object",
+      "properties": {
+        "type": {"type": "string", "description": "Metal type (e.g., Gold, Platinum, Sterling Silver)"},
+        "karat": {"type": "string", "description": "Metal purity (e.g., 18k, 14k, 925)"},
+        "color": {"type": "string", "description": "Metal color (e.g., Yellow Gold, Rose Gold, White Gold)"}
+      }
+    },
+    "ProductImage": {
+      "type": "object",
+      "properties": {
+        "url": {"type": "string", "format": "uri"},
+        "altText": {"type": "string"},
+        "type": {"type": "string", "enum": ["main", "detail", "lifestyle", "360"]}
+      }
+    }
+  }
+}

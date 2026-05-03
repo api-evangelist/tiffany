@@ -1,0 +1,147 @@
+title: Tiffany Vocabulary
+description: >-
+  Domain vocabulary for Tiffany & Co. luxury jewelry retail covering product
+  classifications, gemstone properties, metal standards, collections, and
+  corporate gifting concepts.
+provider: Tiffany & Co.
+created: '2026-05-03'
+modified: '2026-05-03'
+tags:
+  - Corporate Gifting
+  - E-Commerce
+  - Jewelry
+  - Luxury Retail
+  - Watches
+
+terms:
+  - term: SKU
+    label: Stock Keeping Unit
+    definition: >-
+      A unique alphanumeric identifier assigned to each distinct product variant
+      in the Tiffany catalog, used for inventory management and order processing.
+    tags:
+      - Product Management
+
+  - term: Collection
+    label: Tiffany Design Collection
+    definition: >-
+      A named group of products unified by a design concept or motif. Tiffany's
+      collections include Tiffany T, Tiffany HardWear, Return to Tiffany,
+      Tiffany Lock, and Schlumberger, among others.
+    tags:
+      - Product Taxonomy
+
+  - term: Carat
+    label: Carat Weight
+    definition: >-
+      A unit of measurement for gemstone weight, equal to 200 milligrams.
+      Used to describe the total weight of diamonds and other gemstones in a
+      Tiffany piece. Distinct from karat (gold purity).
+    tags:
+      - Gemology
+
+  - term: Karat
+    label: Gold Karat
+    definition: >-
+      A measure of gold purity: 24k is pure gold (99.9%), 18k is 75% gold
+      (Tiffany's most commonly used gold grade), and 14k is 58.3% gold.
+    tags:
+      - Metals
+
+  - term: Diamond Grade
+    label: Diamond Grading
+    definition: >-
+      Diamonds are graded by the 4Cs: Cut (shape and faceting quality),
+      Color (D-Z scale, D being colorless), Clarity (FL to I3 scale),
+      and Carat weight. Tiffany sources its diamonds from responsible miners.
+    tags:
+      - Gemology
+
+  - term: Engraving
+    label: Personalized Engraving
+    definition: >-
+      A personalization service allowing text or monograms to be inscribed on
+      eligible Tiffany products. Available for many sterling silver and gold
+      pieces; limited character counts apply.
+    tags:
+      - Personalization
+
+  - term: Corporate Gifting
+    label: Tiffany Corporate Gifting
+    definition: >-
+      A B2B program enabling companies to purchase Tiffany products in quantity
+      for recognition, incentives, or gifts. Includes a dedicated ordering
+      portal with custom packaging and engraving options.
+    tags:
+      - B2B
+
+  - term: Blue Box
+    label: Tiffany Blue Box
+    definition: >-
+      The iconic robin egg blue Tiffany gift box (Pantone 1837, named for the
+      brand's founding year). Synonymous with the Tiffany brand and included
+      with all purchases, including corporate gifts.
+    tags:
+      - Brand
+
+  - term: Tiffany Blue
+    label: Tiffany Blue
+    definition: >-
+      The trademarked color (Pantone 1837) associated with Tiffany & Co.
+      packaging, marketing, and brand identity since 1878.
+    tags:
+      - Brand
+
+  - term: Sterling Silver
+    label: Sterling Silver
+    definition: >-
+      A metal alloy comprising 92.5% pure silver and 7.5% other metals (usually
+      copper). Used extensively in Tiffany's accessible jewelry lines including
+      Return to Tiffany and Tiffany T.
+    tags:
+      - Metals
+
+  - term: Platinum
+    label: Platinum
+    definition: >-
+      A rare, dense precious metal used for fine jewelry settings, particularly
+      diamond engagement rings and wedding bands. Tiffany uses 950 platinum
+      (95% pure).
+    tags:
+      - Metals
+
+  - term: Pavé
+    label: Pavé Setting
+    definition: >-
+      A gemstone setting technique where small diamonds or gemstones are set
+      very closely together, covering the surface and minimizing visible metal.
+      Common in Tiffany fine jewelry.
+    tags:
+      - Gemology
+
+  - term: LVMH
+    label: LVMH Moët Hennessy Louis Vuitton
+    definition: >-
+      The French luxury conglomerate that acquired Tiffany & Co. in January
+      2021 for approximately $15.8 billion, the largest luxury goods acquisition
+      at the time.
+    tags:
+      - Corporate
+
+  - term: Responsible Sourcing
+    label: Responsible Sourcing
+    definition: >-
+      Tiffany's commitment to sourcing diamonds, gemstones, and metals from
+      suppliers who meet rigorous environmental, social, and governance (ESG)
+      standards. Tiffany discloses the country of origin for its diamonds.
+    tags:
+      - Sustainability
+
+  - term: Ring Size
+    label: Ring Size
+    definition: >-
+      A standardized measurement of finger diameter used to specify ring
+      fit. Tiffany offers US ring sizes (typically 3-13 with half sizes)
+      and international conversions.
+    tags:
+      - Product Management

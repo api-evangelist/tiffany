@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "tiffany": "https://www.tiffany.com/ontology/",
+    "gs1": "https://www.gs1.org/voc/",
+
+    "Product": "Product",
+    "sku": "sku",
+    "name": "name",
+    "description": "description",
+    "url": "url",
+    "category": "category",
+    "subcategory": {
+      "@id": "tiffany:subcategory"
+    },
+    "collection": {
+      "@id": "tiffany:collection"
+    },
+
+    "price": "offers",
+    "amount": "price",
+    "currency": "priceCurrency",
+    "formatted": "tiffany:formattedPrice",
+    "availability": {
+      "@id": "availability",
+      "@type": "@vocab"
+    },
+
+    "ProductImage": "ImageObject",
+    "images": "image",
+    "altText": "alternateName",
+
+    "Gemstone": {
+      "@id": "tiffany:Gemstone",
+      "@type": "@id"
+    },
+    "gemstones": {
+      "@id": "tiffany:gemstones"
+    },
+    "carats": {
+      "@id": "tiffany:carats",
+      "@type": "xsd:decimal"
+    },
+    "color": "color",
+    "clarity": {
+      "@id": "tiffany:clarity"
+    },
+    "cut": {
+      "@id": "tiffany:cut"
+    },
+
+    "Metal": {
+      "@id": "tiffany:Metal",
+      "@type": "@id"
+    },
+    "metals": {
+      "@id": "tiffany:metals"
+    },
+    "karat": {
+      "@id": "tiffany:karat"
+    },
+
+    "materials": {
+      "@id": "tiffany:materials"
+    },
+    "sizes": {
+      "@id": "tiffany:sizes"
+    },
+    "giftable": {
+      "@id": "tiffany:giftable",
+      "@type": "xsd:boolean"
+    },
+    "engravable": {
+      "@id": "tiffany:engravable",
+      "@type": "xsd:boolean"
+    },
+    "occasion": {
+      "@id": "tiffany:occasion"
+    },
+
+    "CorporateGiftOrder": {
+      "@id": "tiffany:CorporateGiftOrder",
+      "@type": "@id"
+    },
+    "orderId": "@id",
+    "orderDate": {
+      "@id": "orderDate",
+      "@type": "xsd:date"
+    },
+    "deliveryDate": {
+      "@id": "tiffany:deliveryDate",
+      "@type": "xsd:date"
+    },
+    "orderStatus": "orderStatus",
+
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  }
+}

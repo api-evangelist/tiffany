@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/tiffany/main/json-schema/tiffany-corporate-order-schema.json",
+  "title": "Tiffany Corporate Gift Order",
+  "description": "Schema for a Tiffany & Co. corporate gifting order placed through the B2B platform.",
+  "type": "object",
+  "properties": {
+    "orderId": {
+      "type": "string",
+      "description": "Unique order identifier"
+    },
+    "companyName": {
+      "type": "string",
+      "description": "Corporate client company name"
+    },
+    "contactName": {
+      "type": "string",
+      "description": "Primary contact name for the order"
+    },
+    "contactEmail": {
+      "type": "string",
+      "format": "email"
+    },
+    "orderDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the order was placed"
+    },
+    "deliveryDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Requested delivery date"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/OrderItem"
+      }
+    },
+    "shipping": {
+      "$ref": "#/$defs/ShippingAddress"
+    },
+    "engraving": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/EngravingRequest"
+      }
+    },
+    "subtotal": {
+      "type": "number",
+      "format": "double"
+    },
+    "total": {
+      "type": "number",
+      "format": "double"
+    },
+    "currency": {
+      "type": "string",
+      "default": "USD"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["Pending", "Confirmed", "Processing", "Shipped", "Delivered", "Cancelled"]
+    }
+  },
+  "required": ["orderId", "companyName", "items", "status"],
+  "$defs": {
+    "OrderItem": {
+      "type": "object",
+      "properties": {
+        "sku": {"type": "string"},
+        "name": {"type": "string"},
+        "quantity": {"type": "integer"},
+        "unitPrice": {"type": "number"},
+        "size": {"type": "string"}
+      },
+      "required": ["sku", "quantity"]
+    },
+    "ShippingAddress": {
+      "type": "object",
+      "properties": {
+        "recipientName": {"type": "string"},
+        "company": {"type": "string"},
+        "line1": {"type": "string"},
+        "line2": {"type": "string"},
+        "city": {"type": "string"},
+        "state": {"type": "string"},
+        "postalCode": {"type": "string"},
+        "country": {"type": "string"},
+        "phone": {"type": "string"}
+      }
+    },
+    "EngravingRequest": {
+      "type": "object",
+      "properties": {
+        "sku": {"type": "string"},
+        "text": {"type": "string", "maxLength": 50},
+        "font": {"type": "string"}
+      }
+    }
+  }
+}
