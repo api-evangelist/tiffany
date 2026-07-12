@@ -66,6 +66,8 @@ apis:
         url: https://www.tiffany.com/en-us/gifts/corporate-gifting/
 
 common:
+  - type: DomainSecurity
+    url: security/tiffany-domain-security.yml
   - type: Website
     url: https://www.tiffany.com
   - type: Corporate Gifting
