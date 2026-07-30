@@ -10,6 +10,18 @@ description: >-
   order management integration. The company does not currently offer a public
   developer API or partner developer program; integration is available through
   their corporate gifting portal and select enterprise channels.
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
 image: https://www.tiffany.com/favicon.ico
 tags:
   - Corporate Gifting
