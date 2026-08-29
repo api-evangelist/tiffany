@@ -10,6 +10,17 @@ description: >-
   order management integration. The company does not currently offer a public
   developer API or partner developer program; integration is available through
   their corporate gifting portal and select enterprise channels.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
