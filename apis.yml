@@ -91,6 +91,11 @@ apis:
         url: https://www.tiffany.com/en-us/gifts/corporate-gifting/
 
 common:
+  - type: ParentCompany
+    url: https://apis.io/providers/lvmh/
+    name: LVMH
+    x-relationship: acquired
+    x-evidence: "is a global luxury jeweler and specialty retailer founded in 1837, acquired by LVMH in 2021."
   - type: DomainSecurity
     url: security/tiffany-domain-security.yml
   - type: Website
