@@ -1,0 +1,14 @@
+{
+  "repo": "tiffany",
+  "feeds": [
+    {
+      "source": "https://press.tiffany.com/feed",
+      "feed_url": "https://press.tiffany.com/feed",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-09-06T19:17:18Z"
+}
