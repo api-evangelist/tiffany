@@ -1,7 +1,9 @@
 ---
 title: Tiffany Demands PSC to Prioritize Baseload Power Sources ...
 url: http://tiffany.house.gov/media/press-releases/tiffany-demands-psc-prioritize-baseload-power-sources-ensure-affordable-energy
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Tiffany" press release artificial intelligence'
 position: 4
 source: serpapi-google

@@ -1,7 +1,9 @@
 ---
 title: Tiffany & Co. boosts sales with AI-powered client advisory ...
 url: https://www.linkedin.com/posts/aimresearch-ai_tiffany-co-the-189-year-old-jewelry-brand-activity-7404905317022498820-A735
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Tiffany" press release artificial intelligence'
 position: 1
 source: serpapi-google

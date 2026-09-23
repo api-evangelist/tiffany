@@ -1,7 +1,9 @@
 ---
 title: 'Ken Goldberg and Tiffany Shlain: Speculation, Like Nature ...'
 url: https://cclarkgallery.com/exhibitions/73-ken-goldberg-and-tiffany-shlain-speculation-like-nature-media-room/overview/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Tiffany" press release artificial intelligence'
 position: 5
 source: serpapi-google
