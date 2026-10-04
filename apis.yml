@@ -45,6 +45,7 @@ modified: '2026-05-03'
 specificationVersion: '0.23'
 apis:
 - aid: tiffany:tiffany-ecommerce
+  x-published: false
   name: Tiffany & Co. E-Commerce Platform
   description: Tiffany & Co.'s direct-to-consumer e-commerce platform at tiffany.com, enabling online browsing,
     customization, and purchase of jewelry, watches, accessories, and home items. The platform supports product
@@ -52,7 +53,6 @@ apis:
     the website and mobile app.
   image: https://www.tiffany.com/favicon.ico
   humanURL: https://www.tiffany.com
-  baseURL: https://www.tiffany.com
   tags:
   - E-Commerce
   - Jewelry
