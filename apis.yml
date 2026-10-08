@@ -82,6 +82,12 @@ apis:
   - type: Documentation
     url: https://www.tiffany.com/en-us/gifts/corporate-gifting/
 common:
+- type: Plans
+  url: plans/tiffany-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/tiffany-rate-limits.yml
+- type: FinOps
+  url: finops/tiffany-finops.yml
 - type: ParentCompany
   url: https://apis.io/providers/lvmh/
   name: LVMH
