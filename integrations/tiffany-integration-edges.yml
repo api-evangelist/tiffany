@@ -1,0 +1,18 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/tiffany/integrations
+- https://zapier.com/apps/tiffany-co/integrations
+- https://n8n.io/integrations/tiffany/
+- https://composio.dev/toolkits/tiffany
+- https://monid.ai/tools/tiffany
+checked:
+- https://composio.dev/toolkits/tiffany
+- https://monid.ai/tools/tiffany
+- https://n8n.io/integrations/tiffany/
+- https://zapier.com/apps/tiffany-co/integrations
+- https://zapier.com/apps/tiffany/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
