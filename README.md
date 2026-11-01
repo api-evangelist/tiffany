@@ -64,48 +64,143 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Tiffany & Co. is a global luxury jeweler and specialty retailer founded in 1837, acquired by LVMH in 2021. The company designs, manufactures, and sells jewelry, watches, fragrances, and accessories under the Tiffany brand across over 300 stores worldwide and a robust e-commerce platform. Tiffany operates a B2B corporate gifting platform with back-end order management integration. The company does not currently offer a public developer API or partner developer program.
+Tiffany & Co. is a global luxury jeweler and specialty retailer founded in 1837, acquired by LVMH in 2021. The company designs, manufactures, and sells jewelry, watches, fragrances, and accessories under the Tiffany brand across over 300 stores worldwide and a robust e-commerce platform. Tiffany operates a B2B corporate gifting platform and retail e-commerce site with back-end order management integration. The company does not currently offer a public developer API or partner developer program; integration is available through their corporate gifting portal and select enterprise channels.
 
-**Website:** [https://www.tiffany.com](https://www.tiffany.com)  
-**Corporate Gifting:** [https://www.tiffany.com/en-us/gifts/corporate-gifting/](https://www.tiffany.com/en-us/gifts/corporate-gifting/)
+**Areas:** Corporate Gifting · E-Commerce · Jewelry · Luxury Retail · Watches · Fortune 1000
 
-## Platform
+## Tiffany & Co. on APIs.io
 
-| Platform | Description | URL |
-|----------|-------------|-----|
-| Tiffany E-Commerce | Direct-to-consumer online store | [tiffany.com](https://www.tiffany.com) |
-| Corporate Gifting Portal | B2B gifting and recognition platform | [Corporate Gifting](https://www.tiffany.com/en-us/gifts/corporate-gifting/) |
+Everything profiled for Tiffany & Co. is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tiffany/](https://apis.io/providers/tiffany/)** — or go straight to one of the APIs or properties below.
 
-> **Note:** Tiffany & Co. does not offer a public developer API. No OpenAPI specs are included as there are no publicly documented REST endpoints. JSON schemas and vocabulary are provided to support data modeling for catalog and order integrations.
+### APIs (2)
 
-## JSON Schemas
+- [Tiffany & Co. E-Commerce Platform](https://apis.io/apis/tiffany/tiffany-ecommerce/) — Tiffany & Co.'s direct-to-consumer e-commerce platform at tiffany.com, enabling online browsing, customization, and purchase of jewelry, watches,…
+- [Tiffany & Co. Corporate Gifting Platform](https://apis.io/apis/tiffany/tiffany-corporate-gifting/) — Tiffany & Co.'s B2B corporate gifting and recognition program platform, providing procurement and delivery of corporate gifts and recognition items. The…
 
-| Schema | Path |
-|--------|------|
-| Tiffany Product | [json-schema/tiffany-product-schema.json](json-schema/tiffany-product-schema.json) |
-| Tiffany Corporate Gift Order | [json-schema/tiffany-corporate-order-schema.json](json-schema/tiffany-corporate-order-schema.json) |
+### Published properties
 
-## JSON Structure
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-| Structure | Path |
-|-----------|------|
-| Tiffany Product Structure | [json-structure/tiffany-product-structure.json](json-structure/tiffany-product-structure.json) |
+#### JSON Schema (2)
 
-## JSON-LD
+The data models the API reads and writes.
 
-| Context | Path |
-|---------|------|
-| Tiffany Context | [json-ld/tiffany-context.jsonld](json-ld/tiffany-context.jsonld) |
+- [Tiffany Corporate Gift Order](https://apis.io/schemas/tiffany/tiffany-corporate-order/)
+- [Tiffany Product](https://apis.io/schemas/tiffany/tiffany-product/)
 
-## Examples
+#### JSON Structure (1)
 
-| Example | Path |
-|---------|------|
-| Product Example | [examples/tiffany-product-example.json](examples/tiffany-product-example.json) |
-| Corporate Gift Order Example | [examples/tiffany-corporate-order-example.json](examples/tiffany-corporate-order-example.json) |
+Data models expressed in JSON Structure.
 
-## Vocabulary
+- [Tiffany Product Structure](https://apis.io/json-structure/tiffany/tiffany-product-structure/)
 
-| Vocabulary | Path |
-|------------|------|
-| Tiffany Vocabulary | [vocabulary/tiffany-vocabulary.yml](vocabulary/tiffany-vocabulary.yml) |
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Tiffany Context](https://apis.io/jsonld/tiffany/tiffany-context/)
+
+#### Vocabulary (1)
+
+The provider's domain terms, defined.
+
+- [Tiffany Vocabulary](https://apis.io/vocabularies/tiffany/tiffany-vocabulary/)
+
+#### Examples (2)
+
+Example requests and responses.
+
+- [Tiffany Corporate Order Example](https://apis.io/examples/tiffany/tiffany-corporate-order-example/)
+- [Tiffany Product Example](https://apis.io/examples/tiffany/tiffany-product-example/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Tiffany & Co. — jsonschema rules](https://apis.io/rules/tiffany/tiffany-jsonschema-spectral-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Tiffany Domain Security](https://apis.io/security/tiffany/tiffany-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Tiffany Plans Pricing](https://apis.io/plans/tiffany/tiffany-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Tiffany Rate Limits](https://apis.io/rate-limits/tiffany/tiffany-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Tiffany Finops](https://apis.io/finops/tiffany/tiffany-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.tiffany.com)
+- [Blog](https://press.tiffany.com/feed)
+- [Terms of service](https://www.tiffany.com/accessibility/terms-and-conditions/)
+- [Privacy policy](https://www.tiffany.com/accessibility/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 20.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 14.7 |
+| Contract governance | 9.8 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 28.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tiffany/](https://apis.io/providers/tiffany/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Tiffany & Co.: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tiffany/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
